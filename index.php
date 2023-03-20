@@ -24,9 +24,14 @@
 
                     <?php for ($i = 0; $i<3; $i++):?>
                         <p>
-                            <?php echo "$member shark doo doo doo doo doo"; ?>
-                        </p>
+                            
+                            <?php echo "$member shark"; ?>
+                            
+                            <?php for ($j = 0; $j<6; $j++):?>
+                                <?php echo "doo"; ?>
+                            <?php endfor; ?>
 
+                        </p>
                     <?php endfor; ?>
 
                     <p>
