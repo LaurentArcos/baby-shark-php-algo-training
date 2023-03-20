@@ -17,6 +17,23 @@
             $family = ['baby', 'mommy', 'daddy', 'grandma', 'grandpa'];
 
             ?>
+
+            <?php
+            foreach($family as $member): 
+            ?>
+            <div class="verse member-<?php {echo"$member";} ?>" >
+                <?php for ($i = 0; $i<3; $i++):?>
+                <p><?php echo "$member shark doo doo doo doo doo"; ?></p>
+            <?php
+              endfor;
+            ?>    
+                <p><?= $member ?> shark !</p>
+            </div>
+            <?php
+              endforeach;
+            ?>
+               
+
             <!-- Chaque couplet doit être représenté par une div comme celle-ci : -->
             <div class="verse member-NOM-REQUIN">
                 <p>Les paroles ici</p>
@@ -28,3 +45,4 @@
                     
 </body>
 </html>
+
