@@ -43,12 +43,7 @@
             <?php endforeach; ?>
 
 
-            <!-- Chaque couplet doit être représenté par une div comme celle-ci : 
-            <div class="verse member-NOM-REQUIN">
-                <p>Les paroles ici</p>
-                <p>Encore des paroles là</p>
-            </div>
-            -->
+
         </div>
     </main>
 
